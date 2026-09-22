@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+}
+.paragraphs{
+    color: black;
+    display: flex;
+    flex-direction: column;    
+}
+.paragraphs button {
+    align-self: flex-start;
+}
+.header{
+    display: flex;
+    background-color: blue;
+}
+.nav-list{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    list-style: none;
+}
+.middle-section{
+    display: flex;
+    background-color: blue;
+     
+}
+.information-section{
+    display: flex;
+    color:black;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    flex-direction: column;
+    align-items: center;
+}
+.images-mid{
+    display: flex;
+    flex-direction: column;
+   
+}
+.images-section{
+    display: flex;
+    gap: 20px;
+}
+.quote-section{
+    background-color: gray;
+    color: white;
+}
+.signup-section{
+    background-color: blue;
+}
+.last-section{
+background-color: blue;
+color: white;
+}
